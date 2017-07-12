@@ -1,3 +1,4 @@
+package ex0705.constructor;
 class Puppy3{
 	/*String 타입 전역 변수 선언
 		int 타입 전역 변수 선언*/

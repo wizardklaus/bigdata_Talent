@@ -1,4 +1,4 @@
-package ex0705;
+package ex0705.array;
 
 //ObjectInArray.java
 

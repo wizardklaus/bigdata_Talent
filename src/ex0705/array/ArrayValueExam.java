@@ -1,4 +1,4 @@
-package ex0705;
+package ex0705.array;
 
 class ArrayValue{
 	String[] arr=new String[10];

@@ -1,4 +1,4 @@
-package ex0705;
+package ex0705.array;
 
 class MultiArray{
 //정수형 2차원 배열 8*9

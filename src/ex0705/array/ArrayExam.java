@@ -1,4 +1,4 @@
-package ex0705;
+package ex0705.array;
 
 class ArrayExam{
 	static int a[]=new int[]{1,2,3,4,5};

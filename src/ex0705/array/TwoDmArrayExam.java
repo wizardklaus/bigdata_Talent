@@ -16,6 +16,9 @@ class TwoDmArray{
 }
 
 public class TwoDmArrayExam{
+	public static void main(String[] args){
+		
+	}
 	//main메소드에서
 	
 		//TwoDmArray객체생성
@@ -24,5 +27,4 @@ public class TwoDmArrayExam{
 		
 		//TwoDmArray객체의 print2DmArray메소드 호출
 		
-	}
 }

@@ -1,3 +1,4 @@
+package ex0706.overriding;
 class ObjectExam{
 	public ObjectExam(){   }
 	public ObjectExam(String str){   }

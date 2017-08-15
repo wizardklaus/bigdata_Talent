@@ -1,4 +1,4 @@
-package codding0705.lottoNumGen;
+package ex0705.lottoNumGen;
 
 public class LottoNumGen {
 	int[] lotto=new int[6];

@@ -1,4 +1,4 @@
-package ex0707.exceptionTest;
+package ex0707.exception;
 
 class Over18 extends Exception{
 	public Over18(String e){

@@ -1,4 +1,4 @@
-package codding0704.grading;
+package ex0704.grading;
 
 import java.util.Scanner;
 

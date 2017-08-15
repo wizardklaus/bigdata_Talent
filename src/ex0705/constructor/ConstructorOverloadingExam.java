@@ -2,6 +2,8 @@ package ex0705.constructor;
 class Puppy3{
 	/*String 타입 전역 변수 선언
 		int 타입 전역 변수 선언*/
+	static String walwal;
+	static int in;
 		
 	
 	/*인수가 없는 생성자작성
@@ -9,6 +11,11 @@ class Puppy3{
 		"puplic Puppy3()호출되었습니다"출력
 		전역변수 출력
 	*/		
+	public Puppy3(){
+		System.out.println("public Puppy3() 호출되었습니다.");
+		System.out.println("walwal="+walwal+"in="+in);
+	}
+		
 	
 	
 	/*String 타입의 인수 1개를 받는 생성자작성
@@ -16,6 +23,10 @@ class Puppy3{
 		"puplic Puppy3()호출되었습니다"출력
 		전역변수 출력
 	*/		
+	public Puppy3(String st){
+		System.out.println("public Puppy3() 호출되었습니다.");
+		walwal=st;		
+	}
 		
 	
 	/*String 타입의 인수 2개를 받는 생성자작성
@@ -23,6 +34,10 @@ class Puppy3{
 		String 타입의 인수 1개를 받는 생성자에게 인수로 주며 호출
 		"puplic Puppy3()호출되었습니다"출력
 	*/		
+	public Puppy3(String st1, String st2){
+		walwal=st1+st2;
+		System.out.println("public Puppy3() 호출되었습니다.");
+	}
 		
 	
 	
@@ -49,7 +64,6 @@ class Puppy3{
 	*/	
 		
 
-	}
 }
 
 class ConstructorOverloadingExam{

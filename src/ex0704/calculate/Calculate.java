@@ -1,4 +1,4 @@
-package codding0704.calculate;
+package ex0704.calculate;
 
 import java.util.Scanner;
 

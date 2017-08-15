@@ -1,4 +1,4 @@
-package codding0704.grading;
+package ex0704.grading;
 
 public class Codding0703 {
 	public static void main(String[] args){

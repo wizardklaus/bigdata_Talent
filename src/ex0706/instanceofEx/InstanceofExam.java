@@ -1,10 +1,10 @@
-package ex0706_1;
+package ex0706.instanceofEx;
 
 class Car{} 
 class EfSonata extends Car{}
 class Excel extends Car{}
 class Canival extends Car{}
-class People{}
+class People extends Car{}
 
 public class InstanceofExam{
 	public static void main(String args []){
@@ -47,6 +47,8 @@ public class InstanceofExam{
 		
 		if(p instanceof Car){
 			System.out.println("p instanceof Car is true");
-		} 
+		}else{
+			System.out.println("p instanceof Car is false");
+		}
 	}
 }	

@@ -1,6 +1,6 @@
-//MethodOverridingExam.java
-//이 class는 수정하지 마세요.
-class SuperClass{
+package ex0706.overriding;
+
+class SuperClass{ //MethodOverridingExam.java << 이 class는 수정하지 마세요.
  	protected int intNumber;
 
  	protected String memberString="Sting in SuperClass";
@@ -50,18 +50,17 @@ class SubClass extends SuperClass{
  		System.out.println("생성자 SubClass()가 호출되었습니다.");
  	}
  	
-	protected void methodZero(){
+	public void methodZero(){
 		System.out.println("SubClass객체의 methodZero()메소드가 호출되었습니다.");
 		System.out.println("intNumber="+intNumber+"\t"+"memberString="+memberString);
 	}
  	
-	private float methodOwn(){
+	public void methodOwn(){
 		System.out.println("SubClass객체의 methodOwn()메소드가 호출되었습니다.");
  		System.out.println("intNumber="+intNumber+"\t"+"memberString="+memberString);
- 		return intNumber; 
  	}
  	
-	private void methodTwo(int a){	
+	int methodTwo(int a){	
 		intNumber=a;
  		System.out.println("SubClass객체의 methodTwo()메소드가 호출되었습니다.");
  		System.out.println("intNumber="+intNumber+"\t"+"memberString="+memberString);
@@ -76,7 +75,7 @@ class SubClass extends SuperClass{
  		return memberString;
  	}
 	
-	String methodThree(int k,String str){
+	public String methodThree(int k,String str){
 		intNumber=k;
  		memberString=str;
  		System.out.println("SubClass객체의 methodThree()메소드가 호출되었습니다.");
@@ -84,7 +83,7 @@ class SubClass extends SuperClass{
  		return memberString;
  	}
  	
-	public double methodFour(){	
+	public void methodFour(){	
 		System.out.println("SubClass의 public double methodFour()가 호출되었습니다.");
  		memberString="methodFour invokes methodOwn";
  		methodOwn();
